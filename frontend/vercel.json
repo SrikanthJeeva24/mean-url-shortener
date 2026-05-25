@@ -1,0 +1,9 @@
+{
+  "outputDirectory": "dist/url-shortener-ui",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
