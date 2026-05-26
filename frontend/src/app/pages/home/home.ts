@@ -103,7 +103,7 @@ export class Home implements OnInit {
 
         shortCode: url.shortCode,
 
-        shortUrl: url.shortUrl,
+        shortUrl: `${this.BASE_URL}url/${url.shortCode}`,
 
         clicks: url.clicks,
 
